@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Noto Sans CJK KR Regular';
-  font-style: normal;
+  font-style: 400;
   src: local('Noto Sans CJK KR Regular'), url('../fonts/NotoSansCJK/NotoSansCJKkr-Regular.woff') format('woff'),
   url('../fonts/NotoSansCJK/NotoSansCJKkr-Regular.eot') format('embedded-opentype');
   font-weight: normal;
@@ -15,7 +15,7 @@
 @font-face {
   font-family: 'Noto Sans CJK KR Bold';
   font-style: normal;
-  font-weight: bold;
+  font-weight: 900;
   src: local('Noto Sans CJK KR Bold'), url('../fonts/NotoSansCJK/NotoSansCJKkr-Bold.woff') format('woff'),
   url('../fonts/NotoSansCJK/NotoSansCJKkr-Bold.eot')  format('embedded-opentype');
 }
@@ -23,7 +23,6 @@
   font-family: 'Noto Sans KR Light';
   font-style: normal;
   font-weight: 300;
-  src: local('Noto Sans CJK KR Bold'), url('../fonts/NotoSansCJK/NotoSans-Light.woff') format('woff'),
-  url('../fonts/NotoSansCJK/NotoSans-Light.woff2') format('woff2'),
-  url('../fonts/NotoSansCJK/NotoSans-Light.eot')  format('embedded-opentype');
+  src: local('Noto Sans CJK KR Bold'), url('../fonts/NotoSansCJK/NotoSansCJKkr-Light.woff') format('woff'),
+  url('../fonts/NotoSansCJK/NotoSansCJKkr-Light.eot')  format('embedded-opentype');
 }
